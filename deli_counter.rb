@@ -4,7 +4,7 @@ def line (array)
     puts "The line is currently empty."
   else
     names_nums = array.map.with_index do |name, i|
-      "#{i}. #{name}"
+      "#{i+1}. #{name}"
     end
     name_string = names_nums.join(" ")
     puts "The line is currently: #{name_string}"
